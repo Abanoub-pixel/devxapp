@@ -16,7 +16,6 @@ import { customers } from "../../../src/data.js";
 const Trial = () => {
   
   const onFocusedCellChanging = (e) => {
-    console.log(e)
     e.isHighlighted = true;
   };
 
